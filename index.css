@@ -46,7 +46,7 @@
     margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color:  rgb(80, 219, 52);
+    background-color:  #5dae70;
 }
 .dropdown-content {
     display: none;
