@@ -1,3 +1,42 @@
+/* 
+rgb(80, 219, 52) - greenish
+rgb(228, 1, 109) - pinkish 
+rgb(52, 119, 219) - original blue
+rgb(44, 121, 115) - grassy green
+*/
+
+body {
+    background-color: rgb(20, 25, 30);
+}
+
+.center{
+    text-align:center!important
+}
+
+.wide{
+    letter-spacing:4px
+}
+
+.dark-grey{
+    color:#fff!important;background-color:#404241!important
+}
+
+.row-padding{
+    padding:0 8px;content:"";display:table;clear:both
+}
+
+.opacity{
+    opacity:0.60;
+}
+
+.links{
+    font-size:20px;
+}
+
+.title{
+    font-size:35px;
+}
+
 .navbar {
     margin-left: auto;
     overflow: hidden;
@@ -24,8 +63,9 @@
     float: left;
     overflow: hidden;
 }
+
 .home .homebtn {
-    background-color: rgb(52, 119, 219);
+    background-color: rgb(44, 121, 115);
     font-size: 22px;    
     border: none;
     outline: none;
@@ -35,8 +75,12 @@
     margin: 0;
 }
 
+.light-text{
+    color:rgb(196, 196, 196);
+}
+
 .dropdown .dropbtn {
-    background-color: rgb(52, 119, 219);
+    background-color: rgb(44, 121, 115);
     font-size: 22px;    
     border: none;
     outline: none;
@@ -45,9 +89,12 @@
     font-family: inherit;
     margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color:  #5dae70;
+
+.navbar a:hover , .dropdown:hover .dropbtn, .dropbtn:focus, .dropdown:hover a{
+    background-color: rgb(248, 248, 248);
+    color: rgb(2, 34, 34);
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -89,7 +136,7 @@
 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size:25px;
-    background-color: rgb(52, 119, 219);
+    background-color: rgb(44, 121, 115);
 }
 .lan2read2
 {
@@ -118,5 +165,26 @@
     margin-top:-40px;
 }
 
-  
+.footer-icons{
+    font-size:35px;
+    color:rgb(44, 121, 115);
+}
 
+.footer-icons-mail{
+    font-size:40px; 
+    position: relative; 
+    top:8px;
+    color:rgb(44, 121, 115);
+}
+/* hoverbox */
+.tiptext {
+    color:#069; 
+    cursor:pointer;
+}
+.description {
+    display:none;
+    position:absolute;
+    border:1px solid #000;
+    width:400px;
+    height:400px;
+}
