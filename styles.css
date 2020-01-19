@@ -40,7 +40,7 @@ body {
 .navbar {
     margin-left: auto;
     overflow: hidden;
-    background-color: rgb(44, 121, 115);
+    background-color: rgb(52, 119, 219);
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     vertical-align: middle;
@@ -65,7 +65,7 @@ body {
 }
 
 .home .homebtn {
-    background-color: rgb(44, 121, 115);
+    background-color: rgb(52, 119, 219);
     font-size: 22px;    
     border: none;
     outline: none;
@@ -80,7 +80,7 @@ body {
 }
 
 .dropdown .dropbtn {
-    background-color: rgb(44, 121, 115);
+    background-color: rgb(52, 119, 219);
     font-size: 22px;    
     border: none;
     outline: none;
@@ -136,7 +136,7 @@ body {
 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size:25px;
-    background-color: rgb(44, 121, 115);
+    background-color: rgb(52, 119, 219);
 }
 .lan2read2
 {
@@ -167,14 +167,14 @@ body {
 
 .footer-icons{
     font-size:35px;
-    color:rgb(44, 121, 115);
+    color:rgb(52, 119, 219);
 }
 
 .footer-icons-mail{
     font-size:40px; 
     position: relative; 
     top:8px;
-    color:rgb(44, 121, 115);
+    color:rgb(52, 119, 219);
 }
 /* hoverbox */
 .tiptext {
